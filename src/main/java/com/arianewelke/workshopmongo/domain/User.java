@@ -9,10 +9,10 @@ import java.util.Objects;
 @Document(collection = "user")
 public class User implements Serializable {
 
-    @Id
-    private String id;
+    @Id private String id;
     private String name;
     private String email;
+
 
     public User() {
     }
